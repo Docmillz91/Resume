@@ -1,32 +1,45 @@
 body {
     font-family: georgia;
+     box-sizing: border-box;
 }
 
 nav {
+    
+    display: flex;
+    flex-direction: column;
+    
     text-align: center;
     font-size: 24px;
-    padding: 1em;
+    padding: .5em;
     margin: 1em;
     word-spacing: .5em;
-    border-bottom: solid 5px;
-    border-bottom-color: black;
+    margin-bottom: 4em;
+  
         
 }
 
 nav a {
-    border-bottom: solid 5px;
-    margin: .5em;
+  
+    color: black; 
+    
+    margin-top: .5em;
+    
+    text-decoration: underline 2.5px goldenrod;
+    
     border-color: darkgoldenrod;
+
+
 }
 
-a, li {
-    text-decoration: none;
-    list-style: none;
-}
 
-main, header, footer, section {
+
+
+main, header, footer, section, article {
     
     text-align: center;
+}
+
+figure { 
 }
 
 
@@ -41,8 +54,25 @@ h4 {
     font-weight: lighter;
 }
 
+
+
 li {
     list-style: disc;
     margin-bottom: .5rem;
-    
+}
+
+aside a {
+    color: red;
+    margin: 3em;
+    font-weight: bolder;
+    text-decoration: none;
+    font-style: italic;
+}
+
+
+
+footer  {
+    width: 100%;
+    margin-top: 5rem;
+    display: inline-block;
 }
