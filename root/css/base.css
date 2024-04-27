@@ -17,3 +17,12 @@ main, header, footer, section {
     
     text-align: center;
 }
+
+h3 {
+    font-style: italic;
+}
+
+h4{
+    
+    font-size: 1.5rem;
+}
