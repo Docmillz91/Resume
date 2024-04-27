@@ -1,0 +1,16 @@
+nav {
+  text-align: center;
+  font-size: 30px;
+    padding: 1em;
+    margin: 1em;
+    word-spacing: .5em
+}
+
+a, li {
+    text-decoration: none;
+    list-style: none;
+}
+
+main, header, footer {
+    text-align: center;
+}
