@@ -1,14 +1,17 @@
 body {
     font-family: georgia;
-     box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: beige;
+ 
 }
 
+
+
+
 nav {
-      border: solid 5px black;
-    border-style:double;
-    display: flex;
-    flex-direction: column;
     
+    display: block;    
     text-align: center;
     font-size: 24px;
     padding: .5em;
@@ -20,14 +23,13 @@ nav {
 }
 
 nav a {
-  
-    color: black; 
-    
+    color: blue; 
+    font-weight: bolder;
+    text-decoration: none;
     margin-top: .5em;
     
-    text-decoration: underline 2.5px goldenrod;
     
-    border-color: darkgoldenrod;
+    
 
 
 }
@@ -40,25 +42,28 @@ main, header, footer, section, article {
     text-align: center;
 }
 
-header {
-    border: solid 5px black;
-    border-style: groove;
-}
+
 
 section { 
-    margin-top: 8em;
+    margin-top: 7em;
    
 }
 
+section h2 {
+    text-decoration: underline 2.5px goldenrod;
+    font-style: italic;
+    margin-bottom: 1.7em;
+}
 
 
 
 h3 {
-    font-style: italic;
+        color: darkgoldenrod;
+        text-decoration: underline 2px black;
+
 }
 
 h4 {
-    
     font-size: 1.5rem;
     text-decoration: underline;
     font-weight: lighter;
@@ -69,15 +74,20 @@ h4 {
 li {
     list-style: disc;
     text-align: left;
-    margin-bottom: .5rem;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
 }
 
+
+p {
+    font-size: 1.5em;
+}
 aside {
     margin-top: 3em;
 }
 
 aside a {
-    color: red;
+    color: blue;
     margin: 3em;
     font-weight: bolder;
     text-decoration: none;
