@@ -4,13 +4,19 @@ body {
 
 nav {
     text-align: center;
-    font-size: 25px;
+    font-size: 24px;
     padding: 1em;
     margin: 1em;
     word-spacing: .5em;
     border-bottom: solid 5px;
     border-bottom-color: black;
         
+}
+
+a {
+    border-bottom: solid 5px;
+    margin: .5em;
+    border-color: darkgoldenrod;
 }
 
 a, li {
@@ -23,6 +29,7 @@ main, header, footer, section {
     text-align: center;
 }
 
+
 h3 {
     font-style: italic;
 }
@@ -31,6 +38,7 @@ h4 {
     
     font-size: 1.5rem;
     text-decoration: underline;
+    font-weight: lighter;
 }
 
 li {
