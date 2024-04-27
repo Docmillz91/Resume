@@ -1,9 +1,11 @@
 nav {
-  text-align: center;
-  font-size: 30px;
+    
+    text-align: center;
+    font-size: 30px;
     padding: 1em;
     margin: 1em;
     word-spacing: .5em
+        
 }
 
 a, li {
@@ -11,6 +13,7 @@ a, li {
     list-style: none;
 }
 
-main, header, footer {
+main, header, footer, section {
+    
     text-align: center;
 }
