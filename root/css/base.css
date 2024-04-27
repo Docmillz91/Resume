@@ -1,10 +1,15 @@
+body {
+    font-family: georgia;
+}
+
 nav {
-    
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     padding: 1em;
     margin: 1em;
-    word-spacing: .5em
+    word-spacing: .5em;
+    border-bottom: solid 5px;
+    border-bottom-color: black;
         
 }
 
@@ -22,7 +27,14 @@ h3 {
     font-style: italic;
 }
 
-h4{
+h4 {
     
     font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+li {
+    list-style: disc;
+    margin-bottom: .5rem;
+    
 }
