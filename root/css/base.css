@@ -4,14 +4,15 @@ body {
 }
 
 nav {
-    
+      border: solid 5px black;
+    border-style:double;
     display: flex;
     flex-direction: column;
     
     text-align: center;
     font-size: 24px;
     padding: .5em;
-    margin: 1em;
+    margin: .5em;
     word-spacing: .5em;
     margin-bottom: 4em;
   
@@ -39,8 +40,17 @@ main, header, footer, section, article {
     text-align: center;
 }
 
-figure { 
+header {
+    border: solid 5px black;
+    border-style: groove;
 }
+
+section { 
+    margin-top: 8em;
+   
+}
+
+
 
 
 h3 {
@@ -58,7 +68,12 @@ h4 {
 
 li {
     list-style: disc;
+    text-align: left;
     margin-bottom: .5rem;
+}
+
+aside {
+    margin-top: 3em;
 }
 
 aside a {
